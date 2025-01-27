@@ -9,6 +9,7 @@ const image = document.getElementById('cover'),
     nextBtn = document.getElementById('next'),
     playBtn = document.getElementById('play'),
     background = document.getElementById('bg-img');
+    
 
 const music = new Audio();
 
@@ -39,6 +40,8 @@ const songs = [
     }
 ];
 
+
+
 let musicIndex = 0;
 let isPlaying = false;
 
@@ -56,6 +59,7 @@ function playMusic() {
     playBtn.classList.replace('fa-play', 'fa-pause');
     // Set button hover title
     playBtn.setAttribute('title', 'Pause');
+    image.style.animation = 'girar 12s linear infinite'
     music.play();
 }
 
@@ -65,6 +69,7 @@ function pauseMusic() {
     playBtn.classList.replace('fa-pause', 'fa-play');
     // Set button hover title
     playBtn.setAttribute('title', 'Play');
+    image.style.animation = 'none'
     music.pause();
 }
 
