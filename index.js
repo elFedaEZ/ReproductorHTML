@@ -37,6 +37,12 @@ const songs = [
         displayName: 'Lady (Hear me Tonight)',
         cover: 'assets/4.jpg',
         artist: 'Modjo',
+    },
+    {
+        path: 'assets/5.mp3',
+        displayName: 'BAILE INoLVIDABLE',
+        cover: 'assets/5.jpg',
+        artist: 'Bad Bunny',
     }
 ];
 
