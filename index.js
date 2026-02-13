@@ -16,21 +16,21 @@ const music = new Audio();
 const songs = [
     {
         path: 'assets/1.mp3',
-        displayName: 'Para Ti',
+        displayName: 'One More Time',
         cover: 'assets/1.jpg',
-        artist: 'Feeling Every Sunset',
+        artist: 'Daft Punk',
     },
     {
         path: 'assets/2.mp3',
-        displayName: 'Amar Como Tu (Cover Español)',
+        displayName: 'I Don´t Care Anymore',
         cover: 'assets/2.jpg',
-        artist: 'Steven Universe',
+        artist: 'Phill Collins',
     },
     {
         path: 'assets/3.mp3',
-        displayName: 'Spaguetti del Rock',
+        displayName: 'El Mañana',
         cover: 'assets/3.jpg',
-        artist: 'Divididos',
+        artist: 'Gorillaz',
     },
     {
         path: 'assets/4.mp3',
