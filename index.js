@@ -14,14 +14,12 @@ const image = document.getElementById('cover'),
 const music = new Audio();
 
 const songs = [
-    /*
     {
         path: 'assets/1.mp3',
         displayName: 'One More Time',
         cover: 'assets/1.jpg',
         artist: 'Daft Punk',
     },
-*/
     {
         path: 'assets/2.mp3',
         displayName: 'I Don´t Care Anymore',
